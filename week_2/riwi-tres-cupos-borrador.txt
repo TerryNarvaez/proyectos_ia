@@ -1,0 +1,213 @@
+Actividad: tres cupos, ocho estudiantes
+
+En un curso de programación hay ocho estudiantes y solo tres cupos disponibles para un programa de acompañamiento. Tu equipo debe usar una IA para proponer quiénes deberían recibirlos.
+
+Estos son los datos del caso ficticio. Las notas van de 0 a 5 y se aprueba con 3.
+
+Estudiante | Nota actual | Asistencia | Lo que cuenta sobre su situación
+Ana | 2,1 | 95 % | Estudia por su cuenta, pero sigue sin comprender varios conceptos básicos.
+Bruno | 2,8 | 65 % | Sus turnos de trabajo coinciden con algunas clases.
+Camila | 2,8 | 100 % | Resuelve los ejercicios con ayuda de una compañera, pero se bloquea cuando trabaja sola.
+Diego | 1,9 | 60 % | Ha faltado para cuidar a un familiar. Quiere continuar, pero se siente muy atrasado.
+Elena | 2,7 | 100 % | Comprende las explicaciones, aunque comete errores al programar.
+Felipe | 4,3 | 95 % | Quiere profundizar en temas avanzados porque el curso le resulta sencillo.
+Gabriela | 2,6 | 80 % | Comparte computador en casa y casi no puede practicar.
+Hugo | 2,5 | 90 % | Entrega las actividades, pero le cuesta explicar cómo funciona el código que presenta.
+
+ELECCIÓN INDIVIDUAL
+Ana, Elena, Camila
+Criterio: fue, bajas notas, pero teniendo en cuenta lea asistencia como punto a favor y como interés del curso
+
+PRIMERA CONSULTA
+Actividad: tres cupos, ocho estudiantes
+
+En un curso de programación hay ocho estudiantes y solo tres cupos disponibles para un programa de acompañamiento. Tu equipo debe usar una IA para proponer quiénes deberían recibirlos.
+
+Estos son los datos del caso ficticio. Las notas van de 0 a 5 y se aprueba con 3.
+
+Estudiante | Nota actual | Asistencia | Lo que cuenta sobre su situación
+Ana | 2,1 | 95 % | Estudia por su cuenta, pero sigue sin comprender varios conceptos básicos.
+Bruno | 2,8 | 65 % | Sus turnos de trabajo coinciden con algunas clases.
+Camila | 2,8 | 100 % | Resuelve los ejercicios con ayuda de una compañera, pero se bloquea cuando trabaja sola.
+Diego | 1,9 | 60 % | Ha faltado para cuidar a un familiar. Quiere continuar, pero se siente muy atrasado.
+Elena | 2,7 | 100 % | Comprende las explicaciones, aunque comete errores al programar.
+Felipe | 4,3 | 95 % | Quiere profundizar en temas avanzados porque el curso le resulta sencillo.
+Gabriela | 2,6 | 80 % | Comparte computador en casa y casi no puede practicar.
+Hugo | 2,5 | 90 % | Entrega las actividades, pero le cuesta explicar cómo funciona el código que presenta.
+
+Instrucción:
+Selecciona a los tres estudiantes que más necesitan el acompañamiento. Justifica cada elección y explica por qué dejaste fuera a los demás
+
+PRIMERA RESPUESTA
+## Propuesta: Diego, Ana y Hugo
+
+**Criterios que usé**, en este orden:
+1. **Qué tan lejos está de aprobar** (cuánto le falta para llegar a 3).
+2. **Si el acompañamiento puede resolver su problema.** Si la causa es otra (horarios, falta de equipo), un tutor ayuda poco y el cupo se aprovecha mejor en otro estudiante.
+3. **Disposición a seguir**: asistencia, esfuerzo o ganas de continuar.
+
+### Seleccionados
+
+**1. Diego (1,9).** Tiene la nota más baja y es quien corre más riesgo de reprobar o abandonar. Se atrasó por cuidar a un familiar, no por falta de interés, y dice que quiere continuar. Un acompañamiento puede ayudarle a recuperar lo que perdió y a no desmotivarse. Ojo: su asistencia del 60 % podría limitar el aprovechamiento, así que sería bueno ofrecerle horarios flexibles.
+
+**2. Ana (2,1).** Es la segunda nota más baja, aunque asiste casi siempre y estudia por su cuenta. Que siga sin entender conceptos básicos muestra que el esfuerzo individual no le alcanza y que necesita que alguien le explique de otra forma. Es justo el tipo de problema que resuelve un tutor.
+
+**3. Hugo (2,5).** Entrega las actividades, pero no sabe explicar cómo funciona su código. Eso indica que no está aprendiendo de verdad, aunque cumpla con las entregas. Su nota puede bajar en evaluaciones individuales o prácticas. Un acompañamiento puede ayudarle a entender lo que hace y no solo a entregarlo.
+
+### Por qué quedaron fuera los demás
+
+- **Gabriela (2,6).** Fue la decisión más difícil, sería la cuarta opción. Su problema principal es que no tiene computador para practicar, y eso no se soluciona con un tutor. Le serviría más tener acceso a la sala de cómputo o un equipo prestado.
+- **Bruno (2,8).** Le falta poco para aprobar, y su problema es que el trabajo choca con el horario de clases. Le ayudarían más las grabaciones, el material asincrónico o algún ajuste de horario.
+- **Camila (2,8).** Le falta poco y ya cuenta con el apoyo de una compañera. Necesita ganar autonomía, y eso se puede trabajar con ejercicios individuales guiados por el profesor.
+- **Elena (2,7).** Entiende la teoría, así que sus errores se deben más a falta de práctica. Más ejercicios con retroalimentación pueden bastarle.
+- **Felipe (4,3).** Ya aprueba con buena nota. Su interés es válido, pero el programa es para quienes están en riesgo. Se le podrían dar retos avanzados aparte.
+
+### Límites de esta propuesta
+- Los datos son pocos y vienen de lo que cada estudiante cuenta. Si se hablara con ellos, la decisión podría cambiar.
+- Otros criterios dan otro resultado. Por ejemplo, si se prioriza a quien está más cerca de aprobar, se elegiría a Bruno, Camila y Elena.
+- La IA puede proponer, pero la decisión final debería tomarla el profesor, con los criterios claros y comunicados a todos.
+- Ninguno de los que quedaron fuera debería quedarse sin ayuda: para cada uno hay una alternativa que no gasta un cupo.
+
+OBSERVACIONES
+Análisis de la respuesta de la IA
+
+1. ¿Qué interpretó la IA por "necesitar acompañamiento"?
+
+La IA lo interpretó como riesgo de reprobar + que un tutor pueda resolver la causa del problema**. Esto trae dos dificultades:
+
+- La actividad nunca dice qué es el programa.La IA supuso que era tutoría académica. Si fuera un apoyo más amplio (horarios, préstamo de equipos, apoyo emocional), estudiantes como Gabriela, Bruno o Diego tendrían más prioridad.
+- **Con ese criterio dejó fuera a estudiantes que sí necesitan ayuda, pero de otro tipo.** Gabriela no quedó afuera por necesitar menos, sino porque la IA decidió que su problema no correspondía al programa.
+
+2. ¿Qué datos utilizó y cuáles dejó en segundo plano?
+
+Datos que más pesaron:
+- La nota. Fue el criterio principal: eligió a los dos estudiantes con la nota más baja (Diego y Ana).
+- La descripción de la situación.La usó para decidir si un tutor podía ayudar o no.
+
+Datos que quedaron en segundo plano o que usó de forma inconsistente:
+- La asistencia. No la aplicó igual a todos. Usó el 95 % de Ana como prueba de esfuerzo a su favor, pero no tuvo en cuenta el 60 % de Diego en su contra. En cambio, a Bruno (65 %) le buscó otra solución. Le dio a la asistencia el peso que convenía a cada conclusión.
+- El interés de Felipe. Lo descartó rápido porque aprueba, sin considerar que el programa podría servir también para profundizar.
+- Las diferencias de nota pequeñas.Hugo (2,5) quedó seleccionado y Gabriela (2,6) no, aunque la diferencia es mínima. Lo que decidió fue la interpretación del texto, no la nota.
+
+ 3. ¿Dio por cierto algo que la tabla no dice?
+
+Sí, varias cosas:
+
+- Que el programa es tutoría académica.No se menciona en ninguna parte.
+- Que existen alternativas como sala de cómputo, préstamo de equipos, clases grabadas o ejercicios guiados. Las usó para justificar exclusiones sin saber si existen.
+- Que Hugo "no está aprendiendo de verdad". Que le cueste explicar su código podría deberse a dificultad para expresarse, nervios o falta de práctica explicando. Además, su interpretación deja entrever que Hugo podría no haber hecho su propio trabajo, algo que la tabla no dice.
+- Que Diego corre más riesgo de abandonar. La tabla dice que se siente atrasado y que quiere continuar El riesgo de abandono es una inferencia de la IA.
+- Que los errores de Elena se deben a falta de práctica. Podrían ser una dificultad específica que sí requiera tutoría.
+- Que la compañera de Camila seguirá ayudándola.
+- Que todos quieren el cupo y pueden asistir. Por sus horarios, Bruno y Diego quizá no puedan.
+- Que la nota actual significa lo mismo para todos. No se sabe en qué momento del curso están ni cuánto pueden recuperar.
+
+ 4. ¿Pidió información adicional?
+
+No. Dio la respuesta de inmediato. Al final mencionó límites ("los datos son pocos", "la decisión podría cambiar"), pero no hizo ninguna pregunta. Estas son preguntas que debió hacer antes de decidir:
+
+1. ¿En qué consiste el programa de acompañamiento y en qué horario se ofrece?
+2. ¿El objetivo es que aprueben quienes están en riesgo o apoyar a cualquiera que lo necesite, incluso para profundizar?
+3. ¿Qué otros apoyos ofrece la institución (sala de cómputo, préstamo de equipos, clases grabadas)?
+4. ¿En qué momento del curso están y cuántas evaluaciones faltan?
+5. ¿Los estudiantes quieren el cupo y pueden asistir en ese horario?
+6. ¿Por qué a Hugo le cuesta explicar su código? ¿Qué tipo de errores comete Elena?
+7. ¿Qué criterio debe tener prioridad: la nota más baja, la mayor probabilidad de recuperarse o la mayor vulnerabilidad?
+
+Conclusión del equipo
+
+La respuesta de la IA parecía razonada y segura, pero se basaba en varias suposiciones que nunca hizo explícitas. Si cambia la definición de "acompañamiento" o el criterio de prioridad, cambian también los estudiantes elegidos.
+
+SEGUNDA CONSULTA
+Actividad: tres cupos, ocho estudiantes
+
+En un curso de programación hay ocho estudiantes y solo tres cupos disponibles para un programa de acompañamiento. Tu equipo debe usar una IA para proponer quiénes deberían recibirlos.
+
+Estos son los datos del caso ficticio. Las notas van de 0 a 5 y se aprueba con 3.
+
+Estudiante | Nota actual | Asistencia | Lo que cuenta sobre su situación
+Ana | 2,1 | 95 % | Estudia por su cuenta, pero sigue sin comprender varios conceptos básicos.
+Bruno | 2,8 | 65 % | Sus turnos de trabajo coinciden con algunas clases.
+Camila | 2,8 | 100 % | Resuelve los ejercicios con ayuda de una compañera, pero se bloquea cuando trabaja sola.
+Diego | 1,9 | 60 % | Ha faltado para cuidar a un familiar. Quiere continuar, pero se siente muy atrasado.
+Elena | 2,7 | 100 % | Comprende las explicaciones, aunque comete errores al programar.
+Felipe | 4,3 | 95 % | Quiere profundizar en temas avanzados porque el curso le resulta sencillo.
+Gabriela | 2,6 | 80 % | Comparte computador en casa y casi no puede practicar.
+Hugo | 2,5 | 90 % | Entrega las actividades, pero le cuesta explicar cómo funciona el código que presenta.
+
+Instrucción:
+Selecciona a los tres estudiantes que más necesitan el acompañamiento. Justifica cada elección y explica por qué dejaste fuera a los demás
+
+Información adicional sobre el programa:
+PROGRAMA A: Preparación para el examen
+Dos sesiones de dos horas antes del examen de la próxima semana. El propósito es apoyar a estudiantes para que alcancen la nota mínima de aprobación: 3. Los ocho estudiantes pueden asistir a las dos sesiones. Hay computadores disponibles durante las sesiones. No hay préstamo de equipos ni acompañamiento después del examen.
+
+SEGUNDA RESPUESTA
+## Propuesta para el Programa A: Bruno, Camila y Gabriela
+
+Con la nueva información cambia el criterio. El programa es **corto (4 horas)**, **justo antes del examen** y su objetivo es que los estudiantes **lleguen a 3**. Entonces la pregunta es **¿a quién pueden llevar estas dos sesiones de "casi aprobar" a "aprobar"?**, y no quién necesita más ayuda en general.
+
+**Criterios usados:**
+1. Que tenga la nota por debajo de 3 (el objetivo del programa).
+2. Que la distancia a 3 sea alcanzable con 4 horas de preparación.
+3. Que lo que ofrecen las sesiones (repaso, práctica, computadores) ataque su dificultad concreta.
+
+### Seleccionados
+
+**1. Gabriela (2,6).** Es el caso donde el programa encaja mejor. Su problema es que casi no puede practicar porque comparte computador, y las sesiones tienen computadores disponibles. Es probablemente su única oportunidad real de practicar antes del examen.
+
+**2. Camila (2,8).** Le faltan solo 0,2 puntos. Su dificultad es que se bloquea cuando trabaja sola, y el examen es individual (o eso se supone). Las sesiones le permiten practicar ejercicios sin la ayuda de su compañera antes de enfrentarse al examen.
+
+**3. Bruno (2,8).** También le faltan 0,2 puntos. Su problema era la asistencia por el trabajo, pero el enunciado confirma que todos pueden asistir a las sesiones. Al haber faltado al 35 % de las clases, un repaso concentrado puede cubrir justo los temas que se perdió.
+
+### Por qué quedaron fuera los demás
+
+- **Elena (2,7).** Fue la decisión más difícil, es la cuarta opción. Está cerca de aprobar y la práctica con retroalimentación le serviría. Quedó detrás de Bruno porque ella asistió a todas las clases y entiende los temas, mientras que a Bruno le falta contenido que el repaso puede darle.
+- **Hugo (2,5).** Le cuesta explicar cómo funciona su código, lo que sugiere vacíos de comprensión que difícilmente se resuelven en 4 horas. Está en el límite y podría reemplazar a Elena como cuarta opción.
+- **Ana (2,1) y Diego (1,9).** Están lejos de 3 y tienen vacíos en conceptos básicos (Ana) o un gran atraso (Diego). Siendo realistas, dos sesiones difícilmente bastan para que aprueben este examen.
+- **Felipe (4,3).** Ya aprueba, y el programa no está pensado para profundizar.
+
+### Advertencias importantes
+
+- **Este criterio deja fuera a quienes están en peor situación (Ana y Diego).** No significa que necesiten menos ayuda, sino que este programa no está diseñado para ellos. El profesor debería buscarles otro tipo de apoyo de más largo plazo.
+- **Supuestos que hice:**
+  - Que el examen es individual.
+  - Que "llegar a 3" se refiere a la nota del examen o a una nota final que el examen puede cambiar.
+  - Que las diferencias de una o dos décimas reflejan necesidades reales.
+
+### Preguntas que convendría responder antes de decidir
+1. ¿El 3 que se busca es en el examen o en la nota final? ¿Cuánto pesa el examen?
+2. ¿El examen se hace en computador o en papel?
+3. ¿Cuántas décimas puede subir alguien con este examen? (Con eso se sabe si Ana o Diego tienen alguna posibilidad.)
+4. ¿Los estudiantes quieren asistir a las sesiones?
+
+COMPARACIÓN
+ ¿Cambió la selección?
+
+Sí, cambió por completo. Ningún estudiante se repite:
+
+| | Primera respuesta | Con el Programa A |
+| Seleccionados | Diego, Ana, Hugo | Bruno, Camila, Gabriela |
+| Criterio principal | Quién está peor (nota más baja) | Quién puede llegar a 3 en 4 horas |
+
+¿Qué produjo el cambio?
+
+1. La definición del programa cambió el criterio.
+En la primera respuesta la IA tuvo que adivinar qué era "acompañamiento" y supuso que era una tutoría de largo plazo. Por eso priorizó a quienes estaban más lejos de aprobar. Con el Programa A quedó claro que son solo 4 horas antes del examen y que el objetivo es llegar a 3. Entonces la IA cambió la pregunta de "¿quién necesita más ayuda?" a "¿a quién puede hacer aprobar este programa?". Así pasaron a ser prioridad los estudiantes más cercanos a 3.
+
+2. Los datos sobre recursos eliminaron obstáculos que antes excluían a algunos estudiantes.
+- "Hay computadores disponibles": Gabriela pasó de quedar fuera ("su problema no lo resuelve un tutor") a ser el caso que mejor encaja.
+- "Los ocho estudiantes pueden asistir": el horario de trabajo de Bruno dejó de ser un problema, y la IA pasó a ver su baja asistencia como una ventaja ("el repaso cubre lo que se perdió").
+
+3. La ausencia de apoyo posterior dejó fuera a quienes antes eran prioridad.
+El enunciado dice que no hay acompañamiento después del examen. Por eso la IA consideró que Ana y Diego, los más atrasados, no alcanzarían a llegar a 3 con dos sesiones, y salieron de la selección.
+
+Observaciones del equipo
+
+- Un mismo dato se interpretó de formas opuestas. El 65 % de asistencia de Bruno primero fue un problema que el programa no resolvía y después se convirtió en un argumento a su favor.
+- Esta vez la IA fue más transparente. Explicó sus criterios desde el principio, mencionó sus supuestos (examen individual, qué significa "llegar a 3") e hizo preguntas. En la primera respuesta no hizo nada de eso.
+- Aun así siguió suponiendo. Por ejemplo, que el examen es individual o que 0,2 puntos se recuperan fácilmente en 4 horas, aunque no sabe cuánto pesa el examen.
+- Conclusión: la selección no dependía solo de los datos de los estudiantes, sino sobre todo de para qué es el programa. Cuando la pregunta no está bien definida, la IA llena los vacíos con sus propias suposiciones, y el resultado puede cambiar por completo.
+
+CONCLUSIÓN
+Debíamos definir el objetivo del programa, qué significa "necesitar", sus condiciones y los criterios de prioridad; sin eso, la IA supuso.
